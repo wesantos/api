@@ -7,7 +7,7 @@ import javax.ws.rs.core.MediaType;
 
 @Path("/pessoa")
 public class PessoaResource {
-	// This method is called if TEXT_PLAIN is request
+	
 	@GET
 	@Produces(MediaType.TEXT_PLAIN)
 	public String sayPlainTextHello() {
