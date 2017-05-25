@@ -8,7 +8,6 @@ import javax.persistence.criteria.CriteriaQuery;
 import br.com.r39.erp.model.Pessoa;
 
 public class PessoaDAO {
-
 	private EntityManager manager;
 	
 	public PessoaDAO(EntityManager em){
